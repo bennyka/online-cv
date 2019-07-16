@@ -1,0 +1,14 @@
+<div style="background-color: antiquewhite; margin-left: 75px; margin-right: 40%">
+  <div style="padding: 25px; text-align: justify">
+    <h3 style="font-weight: bold">Skills</h3>
+    <div *ngFor="let element of developerSkills">
+      <div>
+        <a style="font-weight: bold">{{ element.name }}</a>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" [attr.aria-expanded]="element.value" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{'width': element.value + '%'}"></div>
+        <a>{{ element.text }}</a>
+      </div>
+    </div>
+  </div>
+</div>
