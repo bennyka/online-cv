@@ -1,14 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
 h1, h2, h3, h4, h5, h6, a, p {
-  color: gray;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .contentContainer {
   background-color: white;
+  border-radius: 10px;
 }
 .mainContainer {
-  background-color: lightslategray;
+  background-color: #DAE3E7;
 }
 
 
