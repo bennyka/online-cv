@@ -1,6 +1,23 @@
-<div style="background-color: antiquewhite; margin-left: 20px; margin-right: 10px; margin-top: 20px;">
+<div class="contentContainer" style="margin-left: 20px; margin-right: 10px; margin-top: 20px; height: auto;">
   <div style="padding: 25px; text-align: justify">
     <h3 style="font-weight: bold">Projekte</h3>
-    <p>reonimjajlöfkamrefklamerlkgmearlgnmrengerlkngergvregrefgrefgre</p>
+    <div>
+      <h4 style="text-align: center;">{{projects[0]?.title}}</h4>
+      <h6 style="text-align: center;">{{projects[0]?.subtitle}}</h6>
+      <img src="{{projects[0]?.image}}" style="margin: 30px; width: 95%;">
+      <p>{{projects[0]?.text}}</p>
+    </div>
+    <table *ngFor="let project of projects | slice:1; let i = index;">
+      <tr>
+        <td colspan="2" class="divider"><hr /></td>
+      </tr>
+      <tr>
+        <td style="width: 30%;"><img src="{{project?.image}}" style="width: 100%; padding-top: 10px; padding-bottom: 10px; padding-right: 10px;"></td>
+        <td style="width: 70%; vertical-align: top;">
+          <h4 style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px;">{{project?.title}}</h4>
+          <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px;">{{project?.text}}</p>
+        </td>
+      </tr>
+    </table>
   </div>
 </div>

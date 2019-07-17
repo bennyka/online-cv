@@ -1,16 +1,16 @@
 
 
-<div style="background-color: antiquewhite; margin-left: 10px; margin-right: 20px; margin-top: 20px;" *ngFor="let skill of skills">
+<div class="contentContainer" style="margin-left: 10px; margin-right: 20px; margin-top: 20px;" *ngFor="let skill of skills">
   <div style="padding: 25px; text-align: justify">
     <h3 style="font-weight: bold">{{skill.title}}</h3>
-    <a style="color:black">{{ skill.introText }}</a>
+    <p>{{ skill.introText }}</p>
     <div *ngFor="let element of skill.skills" style="margin-top: 20px;">
       <div>
-        <a style="font-weight: bold; color:black">{{ element.name }}</a>
+        <h5>{{ element.name }}</h5>
       </div>
       <div class="progress">
         <div class="progress-bar progress-bar-success" role="progressbar" [attr.aria-expanded]="element.value" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{'width': element.value + '%'}"></div>
-        <a style="color:black">{{ element.text }}</a>
+        <p>{{ element.text }}</p>
       </div>
     </div>
   </div>
