@@ -1,15 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+ /* font-family: "Trebuchet MS", Helvetica, sans-serif; */
+  font-family: 'Lato', arial, sans-serif
 }
 
 .contentContainer {
   background-color: white;
   border-radius: 10px;
+  padding: 25px;
+  text-align: justify;
 }
 .mainContainer {
   background-color: #DAE3E7;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
-
+.qualification-subtitle {
+  font-size: x-small;
+  display: inline;
+}

@@ -1,1 +1,17 @@
-<p>qualification works!</p>
+<div class="contentContainer" style="margin-top: 20px;">
+  <div>
+    <h3 style="font-weight: bold">Qualifikationen</h3>
+    <table *ngFor="let qualification of qualifications">
+      <tr>
+        <td><p>XXX</p></td>
+        <td><p style="margin-left: 10px;">{{qualification.title}}</p></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p class="qualification-subtitle" style="margin-left: 10px;">{{qualification.description}} ({{qualification.year}})</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

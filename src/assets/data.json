@@ -54,14 +54,14 @@
   ],
   "qualification": [
     {
-      "title": "IT-Security",
-      "description": "TÜV zertifizierter IT-Sicherheitsbeauftragter",
-      "year": "2014"
-    },
-    {
       "title": "SAP",
       "description": "SAP CPQ Modeling Intensive Training",
       "year": "2017"
+    },
+    {
+      "title": "IT-Security",
+      "description": "TÜV zertifizierter IT-Sicherheitsbeauftragter",
+      "year": "2014"
     }
   ],
   "language": [
