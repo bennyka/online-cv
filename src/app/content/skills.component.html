@@ -5,12 +5,14 @@
     <h3 style="font-weight: bold">{{skill.title}}</h3>
     <p>{{ skill.introText }}</p>
     <div *ngFor="let element of skill.skills" style="margin-top: 20px;">
-      <div>
-        <h5>{{ element.name }}</h5>
-      </div>
+      <table style="width: 100%;">
+        <tr>
+          <td><h5 style="margin-bottom: 0px;">{{ element.name }}</h5></td>
+          <td><h6 style="text-align: right; margin-bottom: 0px;">{{ element.text }}</h6></td>
+        </tr>
+      </table>
       <div class="progress">
         <div class="progress-bar progress-bar-success" role="progressbar" [attr.aria-expanded]="element.value" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{'width': element.value + '%'}"></div>
-        <p>{{ element.text }}</p>
       </div>
     </div>
   </div>
