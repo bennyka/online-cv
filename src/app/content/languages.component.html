@@ -2,14 +2,14 @@
   <div class="content">
     <h3 style="font-weight: bold">Sprachen</h3>
     <table *ngFor="let language of languages">
-      <tr>
+      <tr style="border-style: solid; border-color: red">
         <td><p>XXX</p></td>
         <td><p style="margin-left: 10px;">{{language.title}}</p></td>
       </tr>
-      <tr>
+      <tr style="border-style: solid; border-color: blue">
         <td></td>
         <td>
-          <p class="listentry-subtitle" style="margin-left: 10px;">{{language.description}} ({{language.year}})</p>
+          <p class="listentry-subtitle" style="margin-left: 10px;">{{language.levelText}} ({{language.level}})</p>
         </td>
       </tr>
     </table>

@@ -13,6 +13,7 @@
     },
   "projects": [
     {"title": "Webseite", "subtitle": "Startup Internetauftritt", "image": "http://benjamin-karla.de/assets/images/projects/project-evofintech.png", "text": "Zuletzt habe ich ein junges Startup Unternehmen bei der Erstellung ihrer Webseite unterstützt. Das Projekt wurde mit HTML5, JavaScript und JQuery umgesetzt."},
+    {"title": "Social Media App", "subtitle": "App Job bei Benny", "image": "", "text": "BEARBEITEN!"},
     {"title": "Digitale Inventarisierung aller Art von Gegenständen", "subtitle": "", "image": "http://benjamin-karla.de/assets/images/projects/project-inventory.jpg", "text": "Inventory unterstützt Sie bei jeglicher Art der Inventarisierung. Von der privaten DVD Sammlung, bis hin zur professionellen Geschäftsinventur."},
     {"title": "Binäre Risiko Analyse", "subtitle": "", "image": "http://benjamin-karla.de/assets/images/projects/project-bra.jpg", "text": "Dieses Projekt ist im Rahmen meiner Bachelorthesis entstanden und basiert auf den Grundlagen von Ben Sapiro. Bei der Binary Risk Analysis (BRA) handelt es sich grundlegend um eine einfache, schnelle und effektive Methode zur IT-Risikoeinschätzung. Meine Arbeit erweitert das Grundkonzept um weitere Fragenkataloge zu neuen Bedrohungsszenarien. Derzeit befindet sich die App in der entwicklung."}
   ],
@@ -28,10 +29,13 @@
       "title": "Developer Skills",
       "introText": "JavaScript: App Entwicklung iOS & Android \n HTML5 & CCS3: Website Gestaltung \n SQL: App- und Website-Backend \nSAP SME: Entwicklung von Produktmodellen",
       "skills": [
-        {"name": "JavaScript & Angular", "value": "80", "text": "Sehr gut"},
+        {"name": "JavaScript", "value": "80", "text": "Sehr gut"},
+        {"name": "TypeScript & Angular", "value": "60", "text": "Gut"},
         {"name": "HTML5 & CSS", "value": "70", "text": "Gut"},
         {"name": "SQL", "value": "70", "text": "Gut"},
-        {"name": "SAP SME", "value": "55", "text": "Gut"}
+        {"name": "SAP SME", "value": "55", "text": "Gut"},
+        {"name": "Swift", "value": "40", "text": "Basic"},
+        {"name": "Java", "value": "40", "text": "Basic"}
       ]
     },
     {
@@ -73,12 +77,12 @@
   ],
   "language": [
     {
-      "language": "Deutsch",
+      "title": "Deutsch",
       "levelText": "Muttersprache",
       "level": 5
     },
     {
-      "language": "Englisch",
+      "title": "Englisch",
       "levelText": "Gut",
       "level": 3.5
     }

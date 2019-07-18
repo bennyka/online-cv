@@ -12,7 +12,7 @@ export class LanguagesComponent implements OnInit {
 
   ngOnInit() {
     this.settingsService.getJSON().subscribe(data => {
-      this.languages = data.languages;
+      this.languages = data.language;
     });
   }
 }
