@@ -7,14 +7,21 @@ import {SettingsService} from './settings.service';
   styles: []
 })
 export class HeaderComponent implements OnInit {
-  name = '';
-  job = '';
+  personDetails = {
+    name: String,
+    job: String,
+    profilimage: String,
+    mail: String
+  };
+
   constructor(private settingsService: SettingsService) { }
 
   ngOnInit() {
     this.settingsService.getJSON().subscribe(data => {
-      this.name = data.aboutme.name;
-      this.job = data.aboutme.job;
+      this.personDetails.name = data.aboutme.name;
+      this.personDetails.job = data.aboutme.job;
+      this.personDetails.profilimage = data.aboutme.profilimage;
+      this.personDetails.mail = data.aboutme.contactDetails.mail;
     });
   }
 

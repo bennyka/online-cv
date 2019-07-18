@@ -1,14 +1,17 @@
 <div class="contentContainer row" style="padding: 30px;">
-  <div class="col-md-2">
-    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="border-radius: 50%; width: 100px;">
-  </div>
-  <div class="col-md-6" style="text-align: left">
-    <h2>{{ name }}</h2>
-    <h4>{{ job }}</h4>
-    <h6>Socialmedia Icons here!</h6>
-  </div>
-  <div class="col-md-4">
-    <button class="btn btn-success glyphicon glyphicon-send" style="margin: 0px auto" href="mailto:mail@benjamin-karla.de"> Kontakt</button>
-  </div>
+  <table style="width: 100%">
+    <tr>
+      <td style="text-align: center; width: 20%;">
+        <img [src]="personDetails.profilimage" alt="Avatar" style="border-radius: 50%; width: 110px; margin-right: 20px;">
+      </td>
+      <td style="text-align: left; width: 55%;">
+        <h2>{{ personDetails.name }}</h2>
+        <h4>{{ personDetails.job }}</h4>
+        <h6>Socialmedia Icons here!</h6>
+      </td>
+      <td style="text-align: left; width: 20%;">
+        <button class="btn btn-success glyphicon glyphicon-send" style="margin: 0px auto" [attr.href]="personDetails.mail"> Kontakt</button>
+      </td>
+    </tr>
+  </table>
 </div>
-

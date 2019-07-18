@@ -11,6 +11,7 @@ import { EducationComponent } from './content/education.component';
 import { QualificationComponent } from './content/qualification.component';
 import { LanguagesComponent } from './content/languages.component';
 import {HttpClientModule} from '@angular/common/http';
+import { ContactDetailsComponent } from './content/contact-details.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {HttpClientModule} from '@angular/common/http';
     SkillsComponent,
     EducationComponent,
     QualificationComponent,
-    LanguagesComponent
+    LanguagesComponent,
+    ContactDetailsComponent
   ],
   imports: [
     BrowserModule,
