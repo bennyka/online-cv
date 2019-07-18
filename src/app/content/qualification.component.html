@@ -1,14 +1,14 @@
 <div class="contentContainer" style="margin-top: 20px;">
-  <div>
+  <div class="content">
     <h3 style="font-weight: bold">Qualifikationen</h3>
     <table *ngFor="let qualification of qualifications">
-      <tr>
+      <tr style="border-style: solid; border-color: blue;">
         <td><p>XXX</p></td>
         <td><p style="margin-left: 10px;">{{qualification.title}}</p></td>
       </tr>
       <tr>
         <td></td>
-        <td>
+        <td style="border-style: solid; border-color: red;">
           <p class="qualification-subtitle" style="margin-left: 10px;">{{qualification.description}} ({{qualification.year}})</p>
         </td>
       </tr>
