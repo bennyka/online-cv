@@ -1,1 +1,17 @@
-<p>education works!</p>
+<div class="contentContainer" style="margin-top: 20px;">
+  <div class="content">
+    <h3 style="font-weight: bold">Ausbildung</h3>
+    <table *ngFor="let education of educations">
+      <tr>
+        <td><p>XXX</p></td>
+        <td><p style="margin-left: 10px;">{{education.title}}</p></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p class="listentry-subtitle" style="margin-left: 10px;">{{education.location}} ({{education.period}})</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

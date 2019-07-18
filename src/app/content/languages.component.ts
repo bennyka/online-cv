@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {SettingsService} from '../settings.service';
 
 @Component({
   selector: 'app-languages',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class LanguagesComponent implements OnInit {
-
-  constructor() { }
+  languages = {};
+  constructor(private settingsService: SettingsService) { }
 
   ngOnInit() {
+    this.settingsService.getJSON().subscribe(data => {
+      this.languages = data.languages;
+    });
   }
-
 }

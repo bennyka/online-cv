@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {SettingsService} from '../settings.service';
 
 @Component({
   selector: 'app-job-experience',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class JobExperienceComponent implements OnInit {
-
-  constructor() { }
+  experiences = {};
+  constructor(private settingsService: SettingsService) { }
 
   ngOnInit() {
+    this.settingsService.getJSON().subscribe(data => {
+      this.experiences = data.experiences;
+    });
   }
 
 }

@@ -1,1 +1,17 @@
-<p>languages works!</p>
+<div class="contentContainer" style="margin-top: 20px;">
+  <div class="content">
+    <h3 style="font-weight: bold">Sprachen</h3>
+    <table *ngFor="let language of languages">
+      <tr>
+        <td><p>XXX</p></td>
+        <td><p style="margin-left: 10px;">{{language.title}}</p></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p class="listentry-subtitle" style="margin-left: 10px;">{{language.description}} ({{language.year}})</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
