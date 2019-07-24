@@ -7,10 +7,11 @@
       <td style="text-align: left; width: 55%;">
         <h1 class="name">{{ personDetails.name }}</h1>
         <h2 class="jobtitle">{{ personDetails.job }}</h2>
-        <h6>Socialmedia Icons here!</h6>
+        <a [href]="personDetails.xing"><h2 style="display: inline"><fa-icon [icon]="iconXing"></fa-icon></h2></a>
+        <a [href]="personDetails.linkedin"><h2 style="margin-left:20px; display: inline"><fa-icon [icon]="iconLinkedin"></fa-icon></h2></a>
       </td>
       <td style="text-align: left; width: 20%;">
-        <button class="btn btn-success glyphicon glyphicon-send" style="margin: 0px auto" [attr.href]="personDetails.mail"> Kontakt</button>
+        <button class="btn btn-success glyphicon glyphicon-send" style="margin: 0px auto" [attr.href]="personDetails.mail" title="KONTAKT"> KONTAKT</button>
       </td>
     </tr>
   </table>

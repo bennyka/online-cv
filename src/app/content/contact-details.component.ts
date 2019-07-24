@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {SettingsService} from '../settings.service';
+import { faMapPin } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-contact-details',
@@ -7,6 +9,8 @@ import {SettingsService} from '../settings.service';
   styles: []
 })
 export class ContactDetailsComponent implements OnInit {
+  iconMapPin = faMapPin;
+  iconMail = faEnvelope;
   contactDetails = {
     mail: String,
     location: String

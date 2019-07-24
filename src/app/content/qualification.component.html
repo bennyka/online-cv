@@ -1,17 +1,13 @@
 <div class="contentContainer" style="margin-top: 20px;">
   <div class="content">
     <h3 style="font-weight: bold">Qualifikationen</h3>
-    <table *ngFor="let qualification of qualifications">
-      <tr>
-        <td><p>XXX</p></td>
-        <td><p style="margin-left: 10px;">{{qualification.title}}</p></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>
-          <p class="listentry-subtitle" style="margin-left: 10px;">{{qualification.description}} ({{qualification.year}})</p>
-        </td>
-      </tr>
-    </table>
+    <p></p>
+    <div *ngFor="let qualification of qualifications">
+      <p style="display: inline;"><fa-icon [icon]="iconGraduation"></fa-icon></p>
+      <p style="display: inline; margin-left: 10px;">{{qualification.title}}</p>
+      <p class="listentry-subtitle" >{{qualification.description}} ({{qualification.year}})</p>
+    </div>
   </div>
 </div>
+
+

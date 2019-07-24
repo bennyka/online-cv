@@ -1,17 +1,12 @@
 <div class="contentContainer" style="margin-top: 20px;">
   <div class="content">
     <h3 style="font-weight: bold">Sprachen</h3>
-    <table *ngFor="let language of languages">
-      <tr style="border-style: solid; border-color: red">
-        <td><p>XXX</p></td>
-        <td><p style="margin-left: 10px;">{{language.title}}</p></td>
-      </tr>
-      <tr style="border-style: solid; border-color: blue">
-        <td></td>
-        <td>
-          <p class="listentry-subtitle" style="margin-left: 10px;">{{language.levelText}} ({{language.level}})</p>
-        </td>
-      </tr>
-    </table>
+    <div *ngFor="let language of languages">
+      <div>
+        <p style="display: inline;">{{language.title}}: </p>
+        <p class="listentry-subtitle">{{language.levelText}}</p>
+        <bar-rating [readOnly]=true [theme]="'stars'" [(rate)]="language.level" [max]="5"></bar-rating>
+      </div>
+    </div>
   </div>
 </div>

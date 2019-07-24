@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import "~ngx-bar-rating/themes/br-stars-theme.css";
 body {
  /* font-family: "Trebuchet MS", Helvetica, sans-serif; */
   font-family: 'Lato', arial, sans-serif
@@ -41,10 +41,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .listentry-subtitle {
   font-size: x-small;
-  display: inline;
+  color: #778492;
+  margin-left: 28px;
 }
 
 .progress {
   height: 10px;
   margin-bottom: 12px;
+}
+.contact-details-content {
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+fa-icon {
+  color: #ccd1d6;
+  text-align: center;
 }

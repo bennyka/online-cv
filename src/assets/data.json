@@ -13,7 +13,7 @@
     },
   "projects": [
     {"title": "Webseite", "subtitle": "Startup Internetauftritt", "image": "http://benjamin-karla.de/assets/images/projects/project-evofintech.png", "text": "Zuletzt habe ich ein junges Startup Unternehmen bei der Erstellung ihrer Webseite unterstützt. Das Projekt wurde mit HTML5, JavaScript und JQuery umgesetzt."},
-    {"title": "Social Media App", "subtitle": "App Job bei Benny", "image": "", "text": "BEARBEITEN!"},
+    {"title": "Vchies", "subtitle": "Social Media App", "image": "", "text": "BEARBEITEN!"},
     {"title": "Digitale Inventarisierung aller Art von Gegenständen", "subtitle": "", "image": "http://benjamin-karla.de/assets/images/projects/project-inventory.jpg", "text": "Inventory unterstützt Sie bei jeglicher Art der Inventarisierung. Von der privaten DVD Sammlung, bis hin zur professionellen Geschäftsinventur."},
     {"title": "Binäre Risiko Analyse", "subtitle": "", "image": "http://benjamin-karla.de/assets/images/projects/project-bra.jpg", "text": "Dieses Projekt ist im Rahmen meiner Bachelorthesis entstanden und basiert auf den Grundlagen von Ben Sapiro. Bei der Binary Risk Analysis (BRA) handelt es sich grundlegend um eine einfache, schnelle und effektive Methode zur IT-Risikoeinschätzung. Meine Arbeit erweitert das Grundkonzept um weitere Fragenkataloge zu neuen Bedrohungsszenarien. Derzeit befindet sich die App in der Entwicklung."}
   ],
@@ -21,7 +21,7 @@
     {"title":  "Softwarearchitekt", "company": "DG Verlag", "period":  "2019 - Heute", "description": "[BEARBEITEN!] Als Softwarearchitekt begleite ich die Einführung neuer Softwaresystem sowohl im Green- als auch Brownfield. Bestandteile meiner Tätigkeiten sind vor allem die Analyse der bestehenden Systemlandschaft, als auch die Anforderungsanalyse an die neuen Systeme. Meine Erfahrung als Softwareentwickler ermöglichen es mir neue Systeme schneller zu analysieren und kleinere Anpassungen auch mal selbst durchzuführen. Derzeit umfassen meine Tätigkeiten beim DG Verlag, neben den Aufgaben eines Softwarearchitekten, auch die eines Softwareentwicklers und Projektmanagers."},
     {"title":  "Customer Success Manager", "company": "Bright Solutions GmbH", "period":  "2018 - 2019", "description": "[BEARBEITEN!] Derzeit arbeite ich als Projektmanager in einem mittelständischen Unternehmen und betreue dort parallel mehrere IT Projekte, welche mit dem CMS Drupal umgesetzt werden. Hierbei gehören Kommunikation, das Erstellen von Konzepten, sowie das Koordinieren von Projekten und dem Team zu meinen Kerntätigkeiten. Zu den genannten Kerntätigkeiten kommen selbstverständlich noch weitere Projekttypische Aufgaben wie das Monitoren des Projektfortschritts, Controlling und die Präsentation der Ergebnisse zu meinen täglichen Aufgaben hinzu. Das Vorgehen in meinen Projekten ist hierbei stets durch die agile Vorgehensweise geprägt."},
     {"title":  "IT-Consultant", "company": "BPVR Unternehmensberatung GmbH", "period":  "2016 - 2018", "description": "In meiner Arbeit als IT-Consultant für ein marktführendes Telekommunikationsunternehmen erhalte ich Einblick in neue spannende und wegweisende Projekte. Von der Erstellung eines Produktmodells mit SAP SME und SAP CPQ bis hin zur Strukturierung der Infrastruktur gehören die unterschiedlichsten Aufgaben zu meinen Tätigkeiten."},
-    {"title":  "Software Developer & Junior IT-Projektmanager", "company": "HPM Kommunikation GmbH", "period":  "2014 - 2016", "description": "In meiner Zeit nach der Ausbildung war es mir möglich die Brücke zwischen der Softwareentwicklung und dem Projektmanagement zu schlagen. Zu meinen Tätigkeiten als Junior IT-Projektmanager zählten folgende Aufgaben:\n\n- Projektmanagement mit dem Schwerpunkt IT\n\n- Kundenbetreuung\n\n- Projektberatung von App-, Website, Microsoft-Projekten und Web-Anwendungen\n\n- Hardwaresupport vor Ort beim Kunden\n\nFolgende Tätigkeiten habe ich in der Rolle als Softwareentwickler ausgeübt:\n\n- Mobile Application Developer iOS und Android\n\n- Crossplattform Entwicklung mit JavaScript\n\n- Programmierung in den Sprachen HTML, CSS, SQL und JavaScript"},
+    {"title":  "Software Developer & Junior IT-Projektmanager", "company": "HPM Kommunikation GmbH", "period":  "2014 - 2016", "description": "In meiner Zeit nach der Ausbildung war es mir möglich die Brücke zwischen der Softwareentwicklung und dem Projektmanagement zu schlagen. Zu meinen Tätigkeiten als Junior IT-Projektmanager zählten folgende Aufgaben:\n- Projektmanagement mit dem Schwerpunkt IT\n\n- Kundenbetreuung\n\n- Projektberatung von App-, Website, Microsite-Projekten und Web-Anwendungen\n\n- Hardwaresupport vor Ort beim Kunden\n\nFolgende Tätigkeiten habe ich in der Rolle als Softwareentwickler ausgeübt:\n\n- Mobile Application Developer iOS und Android\n\n- Crossplattform Entwicklung mit JavaScript\n\n- Programmierung in den Sprachen HTML, CSS, SQL und JavaScript."},
     {"title":  "Ausbildung Fachinformatiker für Anwendungsentwicklung", "company": "HPM Kommunikation GmbH", "period":  "2011 - 2014", "description": "In meiner Ausbildung konnte ich meine Fähigkeit als Softwareentwickler stark ausprägen. Diese Fähigkeiten basieren auf der praktischen Erfahrung im Unternehmen im Zusammenspiel mit den theoretischen Inhalten des Studiums. Im Rahmen der Praxis habe ich regelmäßig mit den Programmiersprachen HTML, CSS, SQL und JavaScript gearbeitet. Dabei fokussierte sich meine Arbeit als Programmierer auf die Entwicklung von Crossplattform Apps."}
   ],
   "skills": [
@@ -43,11 +43,10 @@
       "introText": "Management: Qualitäts-, Prozess & Anforderungsmanagement \nProjektmanagement klassisch: Wasserfall \nProjektmanagement modern: Agile Vorgehensweise (SCRUM) \nKommunikation: Kommunikation im Team und mit dem Kundenbetreuung \nBelastbarkeit \nOrganisationsfähigkeit und Strukturierung",
       "skills": [
         {"name": "Management", "value": "80", "text": "Gut"},
-        {"name": "Projektmanagement klassisch", "value": "60", "text": "Gut"},
-        {"name": "Projektmanagement agil", "value": "80", "text": "Sehr gut"},
-        {"name": "Kommunikation", "value": "75", "text": "Gut"},
-        {"name": "Belastbarkeit", "value": "75", "text": "Gut"},
-        {"name": "Organisationsfähigkeit", "value": "80", "text": "Sehr gut"}
+        {"name": "Organisationsfähigkeit", "value": "80", "text": "Gut"},
+        {"name": "Projektmanagement agil", "value": "70", "text": "Gut"},
+        {"name": "Projektmanagement klassisch", "value": "55", "text": "Gut"},
+        {"name": "Business Process Modelling", "value": "30", "text": "Basic"}
       ]
     }
   ],
@@ -58,7 +57,7 @@
       "period": "2011-2015"
     },
     {
-      "title": "Ausbildung zum Fachinformatiker für Anwendungsentwicklung",
+      "title": "Ausbildung zum Fachinformatiker",
       "location": "HPM Kommunikation GmbH",
       "period": "2011-2014"
     }

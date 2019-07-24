@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {SettingsService} from '../settings.service';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-education',
@@ -8,6 +9,7 @@ import {SettingsService} from '../settings.service';
 })
 export class EducationComponent implements OnInit {
   educations = {};
+  iconGraduation = faGraduationCap;
   constructor(private settingsService: SettingsService) { }
 
   ngOnInit() {

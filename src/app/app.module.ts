@@ -12,6 +12,9 @@ import { QualificationComponent } from './content/qualification.component';
 import { LanguagesComponent } from './content/languages.component';
 import {HttpClientModule} from '@angular/common/http';
 import { ContactDetailsComponent } from './content/contact-details.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
+import {BarRatingModule} from 'ngx-bar-rating';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { ContactDetailsComponent } from './content/contact-details.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    FontAwesomeModule,
+    BarRatingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

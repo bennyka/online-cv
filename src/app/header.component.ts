@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {SettingsService} from './settings.service';
+import { faXingSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 @Component({
   selector: 'app-header',
@@ -7,6 +8,8 @@ import {SettingsService} from './settings.service';
   styles: []
 })
 export class HeaderComponent implements OnInit {
+  iconXing = faXingSquare;
+  iconLinkedin = faLinkedin;
   personDetails = {
     name: String,
     job: String,
@@ -22,6 +25,8 @@ export class HeaderComponent implements OnInit {
       this.personDetails.job = data.aboutme.job;
       this.personDetails.profilimage = data.aboutme.profilimage;
       this.personDetails.mail = data.aboutme.contactDetails.mail;
+      this.personDetails.xing = data.aboutme.contactDetails.xing;
+      this.personDetails.linkedin = data.aboutme.contactDetails.linkedin;
     });
   }
 
