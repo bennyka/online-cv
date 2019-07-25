@@ -3,11 +3,11 @@
     <table>
       <tr>
         <td><p class="contact-details-content" style=""><fa-icon [icon]="iconMail"></fa-icon></p></td>
-        <td><p class="contact-details-content">{{contactDetails.mail}}</p></td>
+        <td><a [href]="contactDetails.mailTo"><p class="contact-details-content">{{contactDetails.mail}}</p></a></td>
       </tr>
       <tr>
         <td><p class="contact-details-content"><fa-icon [icon]="iconMapPin"></fa-icon></p></td>
-        <td><p class="contact-details-content">{{contactDetails.location}}</p></td>
+        <td><a target="_blank" [href]="contactDetails.location.data"><p class="contact-details-content">{{contactDetails.location.text}}</p></a></td>
       </tr>
     </table>
   </div>

@@ -11,7 +11,7 @@
         <a [href]="personDetails.linkedinUrl"><h2 style="margin-left:20px; display: inline"><fa-icon [icon]="iconLinkedin"></fa-icon></h2></a>
       </td>
       <td style="text-align: left; width: 20%;">
-        <button class="btn btn-success" [attr.href]="personDetails.mail" title="KONTAKT"><fa-icon style="color:#fff;" [icon]="iconSend"></fa-icon><p style="color:#fff; margin-left: 10px; display: inline;">KONTAKT</p></button>
+        <a [href]="personDetails.mailTo"><button class="btn btn-success" title="KONTAKT"><fa-icon style="color:#fff;" [icon]="iconSend"></fa-icon><p style="color:#fff; margin-left: 10px; display: inline;">KONTAKT</p></button></a>
       </td>
     </tr>
   </table>

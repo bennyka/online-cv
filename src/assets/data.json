@@ -3,8 +3,11 @@
       "name": "Benjamin Karla",
       "job": "Developer & IT-Projektmanager",
       "profilimage": "http://benjamin-karla.de/assets/images/profile.png",
-      "text": "Durch meine Ausbildung zum Fachinformatiker für Anwendungsentwicklung und dem dualen Studium wurde meine Leidenschaft zur Softwareentwicklung geweckt.\n\nSeit dem Abschluss meiner Ausbildung konnte ich bereits umfangreiche Erfahrungen in Softwareprojekten sammeln. Sowohl als IT-Consultant in einer leitenden Position, als auch in der Rolle als Entwickler verfüge ich über weitreichende Kenntnisse. Neben meinen beruflichen Projekten setze ich meinen Fokus auch auf eigene Ideen, um diese stets zu eigenen Projekten weiterzuentwickeln.\n\nIch bin auf der Suche nach interessanten Kontakten, spannenden neuen Technologien und Themen, sowie Projektpartner und neuen Herausforderungen.",
-      "location": "Mainz, DE",
+      "text": "Durch meine Ausbildung zum Fachinformatiker für Anwendungsentwicklung und dem dualen Studium wurde meine Leidenschaft zur Softwareentwicklung geweckt.\n\nSeit dem Abschluss meiner Ausbildung konnte ich bereits umfangreiche Erfahrungen in Softwareprojekten sammeln. Sowohl als IT-Consultant in einer leitenden Position, als auch in der Rolle als Entwickler verfüge ich über weitreichende Kenntnisse. Neben meinen beruflichen Projekten setze ich meinen Fokus auch auf eigene Ideen, um diese stets zu eigenen Projekten weiterzuentwickeln.\n\nIch bin auf der Suche nach interessanten Kontakten, spannenden neuen Technologien und Themen, sowie Projektpartner und neuen Herausforderungen. \n\nUm einen Ausgleich zur theoretischen Arbeit zu schaffen, verbringe ich meine Freizeit am liebsten mit Freunden draußen in der Natur oder beim Sport.",
+      "location": {
+        "text": "Mainz, DE",
+        "data": "https://www.google.de/maps/place/Mainz/@49.9654763,8.172491,12z/data=!3m1!4b1!4m5!3m4!1s0x47bd912e33df1379:0x422d4d510db1ba0!8m2!3d49.9928617!4d8.2472526"
+      },
       "contactDetails": {
         "mail": "mail@benjamin-karla.de",
         "xing": "https://www.xing.com/profile/Benjamin_Karla/cv",
@@ -27,24 +30,39 @@
   "skills": [
     {
       "title": "Developer Skills",
-      "introText": "JavaScript: App Entwicklung iOS & Android \n HTML5 & CCS3: Website Gestaltung \n SQL: App- und Website-Backend \nSAP SME: Entwicklung von Produktmodellen",
+      "introText": "",
       "skills": [
         {"name": "JavaScript", "value": "80", "text": "Sehr gut"},
-        {"name": "TypeScript & Angular", "value": "60", "text": "Gut"},
         {"name": "HTML5 & CSS", "value": "70", "text": "Gut"},
-        {"name": "SQL", "value": "70", "text": "Gut"},
+        {"name": "SQL", "value": "65", "text": "Gut"},
+        {"name": "TypeScript & Angular", "value": "60", "text": "Gut"},
         {"name": "SAP SME", "value": "55", "text": "Gut"},
         {"name": "Swift", "value": "40", "text": "Basic"},
         {"name": "Java", "value": "40", "text": "Basic"}
       ]
     },
     {
-      "title": "PM Skills",
-      "introText": "Management: Qualitäts-, Prozess & Anforderungsmanagement \nProjektmanagement klassisch: Wasserfall \nProjektmanagement modern: Agile Vorgehensweise (SCRUM) \nKommunikation: Kommunikation im Team und mit dem Kundenbetreuung \nBelastbarkeit \nOrganisationsfähigkeit und Strukturierung",
+      "title": "IT Skills",
+      "introText": "",
       "skills": [
-        {"name": "Management", "value": "80", "text": "Gut"},
+        {"name": "MacOSX & iOS", "value": "90", "text": "Sehr Gut"},
+        {"name": "JIRA", "value": "85", "text": "Sehr Gut"},
+        {"name": "Confluence", "value": "80", "text": "Sehr Gut"},
+        {"name": "Eclipse", "value": "60", "text": "Gut"},
+        {"name": "GIT", "value": "60", "text": "Gut"},
+        {"name": "XCode", "value": "55", "text": "Gut"},
+        {"name": "IntelliJ", "value": "50", "text": "Gut"},
+        {"name": "MID Innovator", "value": "30", "text": "Basic"},
+        {"name": "Adobe Photoshop", "value": "20", "text": "Basic"}
+      ]
+    },
+    {
+      "title": "Management Skills",
+      "introText": "",
+      "skills": [
         {"name": "Organisationsfähigkeit", "value": "80", "text": "Gut"},
         {"name": "Projektmanagement agil", "value": "70", "text": "Gut"},
+        {"name": "Prozess- & Anforderungsmanagement", "value": "70", "text": "Gut"},
         {"name": "Projektmanagement klassisch", "value": "55", "text": "Gut"},
         {"name": "Business Process Modelling", "value": "30", "text": "Basic"}
       ]
@@ -60,10 +78,23 @@
       "title": "Ausbildung zum Fachinformatiker",
       "location": "HPM Kommunikation GmbH",
       "period": "2011-2014"
+    },
+    {
+      "title": "Fachhochschulreife im Bereich EDV",
+      "location": "Gustav-Stresemann-Wirtschaftsschule",
+      "period": "2007-2009"
     }
   ],
   "qualification": [
     {
+      "title": "SAP HYBRIS HY220",
+      "description": "SAP Intensive Training",
+      "year": "2017"
+    },{
+      "title": "SAP HYBRIS HY100",
+      "description": "SAP Intensive Training",
+      "year": "2017"
+    },{
       "title": "SAP",
       "description": "SAP CPQ Modeling Intensive Training",
       "year": "2017"

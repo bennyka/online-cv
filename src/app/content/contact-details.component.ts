@@ -12,15 +12,16 @@ export class ContactDetailsComponent implements OnInit {
   iconMail = faEnvelope;
   contactDetails = {
     mail: String,
-    location: String
+    mailTo: '',
+    location: {}
   };
   constructor(private settingsService: SettingsService) { }
 
   ngOnInit() {
     this.settingsService.getJSON().subscribe(data => {
       this.contactDetails.mail = data.aboutme.contactDetails.mail;
+      this.contactDetails.mailTo = 'mailto:' + data.aboutme.contactDetails.mail;
       this.contactDetails.location = data.aboutme.location;
     });
   }
-
 }

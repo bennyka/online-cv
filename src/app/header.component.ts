@@ -17,6 +17,7 @@ export class HeaderComponent implements OnInit {
     job: String,
     profilimage: String,
     mail: String,
+    mailTo: '',
     xingUrl: String,
     linkedinUrl: String
   };
@@ -29,6 +30,7 @@ export class HeaderComponent implements OnInit {
       this.personDetails.job = data.aboutme.job;
       this.personDetails.profilimage = data.aboutme.profilimage;
       this.personDetails.mail = data.aboutme.contactDetails.mail;
+      this.personDetails.mailTo = 'mailto:' + data.aboutme.contactDetails.mail;
       this.personDetails.xingUrl = data.aboutme.contactDetails.xing;
       this.personDetails.linkedinUrl = data.aboutme.contactDetails.linkedin;
     });
