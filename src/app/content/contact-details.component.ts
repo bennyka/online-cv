@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {SettingsService} from '../settings.service';
-import { faMapPin } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faMapPin } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-contact-details',

@@ -7,11 +7,11 @@
       <td style="text-align: left; width: 55%;">
         <h1 class="name">{{ personDetails.name }}</h1>
         <h2 class="jobtitle">{{ personDetails.job }}</h2>
-        <a [href]="personDetails.xing"><h2 style="display: inline"><fa-icon [icon]="iconXing"></fa-icon></h2></a>
-        <a [href]="personDetails.linkedin"><h2 style="margin-left:20px; display: inline"><fa-icon [icon]="iconLinkedin"></fa-icon></h2></a>
+        <a [href]="personDetails.xingUrl"><h2 style="display: inline"><fa-icon [icon]="iconXing"></fa-icon></h2></a>
+        <a [href]="personDetails.linkedinUrl"><h2 style="margin-left:20px; display: inline"><fa-icon [icon]="iconLinkedin"></fa-icon></h2></a>
       </td>
       <td style="text-align: left; width: 20%;">
-        <button class="btn btn-success glyphicon glyphicon-send" style="margin: 0px auto" [attr.href]="personDetails.mail" title="KONTAKT"> KONTAKT</button>
+        <button class="btn btn-success" [attr.href]="personDetails.mail" title="KONTAKT"><fa-icon style="color:#fff;" [icon]="iconSend"></fa-icon><p style="color:#fff; margin-left: 10px; display: inline;">KONTAKT</p></button>
       </td>
     </tr>
   </table>

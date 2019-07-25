@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {SettingsService} from './settings.service';
-import { faXingSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faXingSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -10,23 +11,26 @@ import { faXingSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 export class HeaderComponent implements OnInit {
   iconXing = faXingSquare;
   iconLinkedin = faLinkedin;
+
   personDetails = {
     name: String,
     job: String,
     profilimage: String,
-    mail: String
+    mail: String,
+    xingUrl: String,
+    linkedinUrl: String
   };
 
   constructor(private settingsService: SettingsService) { }
-
+  iconSend = faPaperPlane;
   ngOnInit() {
     this.settingsService.getJSON().subscribe(data => {
       this.personDetails.name = data.aboutme.name;
       this.personDetails.job = data.aboutme.job;
       this.personDetails.profilimage = data.aboutme.profilimage;
       this.personDetails.mail = data.aboutme.contactDetails.mail;
-      this.personDetails.xing = data.aboutme.contactDetails.xing;
-      this.personDetails.linkedin = data.aboutme.contactDetails.linkedin;
+      this.personDetails.xingUrl = data.aboutme.contactDetails.xing;
+      this.personDetails.linkedinUrl = data.aboutme.contactDetails.linkedin;
     });
   }
 
