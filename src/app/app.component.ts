@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'online-cv';
+  showSpinner = true;
+
+  constructor() {
+    setTimeout(() => {
+      this.showSpinner = false;
+    }, 250);
+  }
 }

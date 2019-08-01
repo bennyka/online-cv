@@ -5,8 +5,8 @@
         <img [src]="personDetails.profilimage" alt="Avatar" style="border-radius: 50%; width: 180px; margin-right: 20px;">
       </td>
       <td style="text-align: left; width: 55%;">
-        <h1 class="name">{{ personDetails.name }}</h1>
-        <h2 class="jobtitle">{{ personDetails.job }}</h2>
+        <h1 class="name">{{ personDetails?.name }}</h1>
+        <h2 class="jobtitle">{{ personDetails?.job }}</h2>
         <a [href]="personDetails.xingUrl"><h2 style="display: inline"><fa-icon [icon]="iconXing"></fa-icon></h2></a>
         <a [href]="personDetails.linkedinUrl"><h2 style="margin-left:20px; display: inline"><fa-icon [icon]="iconLinkedin"></fa-icon></h2></a>
       </td>

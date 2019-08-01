@@ -15,6 +15,7 @@ import { ContactDetailsComponent } from './content/contact-details.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import {BarRatingModule} from 'ngx-bar-rating';
+import {Ng2LoadingSpinnerModule} from 'ng2-loading-spinner';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,11 @@ import {BarRatingModule} from 'ngx-bar-rating';
     HttpClientModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
-    BarRatingModule
+    BarRatingModule,
+    Ng2LoadingSpinnerModule.forRoot({
+      backdropColor: '#fff',
+      spinnerColor: '#4F4F4F'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

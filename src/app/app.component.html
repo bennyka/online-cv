@@ -1,15 +1,17 @@
-<app-header></app-header>
-<div style="overflow: hidden; background-color: #DAE3E7">
-  <div class="mainContainer" style="float: left; width: 67%; margin-left: 50px; margin-right: 10px;">
-    <app-aboutme></app-aboutme>
-    <app-projects></app-projects>
-    <app-job-experience></app-job-experience>
-  </div>
-  <div class="mainContainer" style="float:right; width: 24%; margin-left: 10px; margin-right: 50px;">
-    <app-contact-details></app-contact-details>
-    <app-skills></app-skills>
-    <app-education></app-education>
-    <app-qualification></app-qualification>
-    <app-languages></app-languages>
+<div [ng2-loading]="showSpinner">
+  <app-header></app-header>
+  <div style="overflow: hidden; background-color: #DAE3E7">
+    <div class="mainContainer" style="float: left; width: 67%; margin-left: 50px; margin-right: 10px;">
+      <app-aboutme></app-aboutme>
+      <app-projects></app-projects>
+      <app-job-experience></app-job-experience>
+    </div>
+    <div class="mainContainer" style="float:right; width: 24%; margin-left: 10px; margin-right: 50px;">
+      <app-contact-details></app-contact-details>
+      <app-skills></app-skills>
+      <app-education></app-education>
+      <app-qualification></app-qualification>
+      <app-languages></app-languages>
+    </div>
   </div>
 </div>
