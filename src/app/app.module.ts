@@ -15,7 +15,7 @@ import { ContactDetailsComponent } from './content/contact-details.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import {BarRatingModule} from 'ngx-bar-rating';
-import {Ng2LoadingSpinnerModule} from 'ng2-loading-spinner';
+import {ANIMATION_TYPES, Ng2LoadingSpinnerModule} from 'ng2-loading-spinner';
 
 @NgModule({
   declarations: [
@@ -37,8 +37,11 @@ import {Ng2LoadingSpinnerModule} from 'ng2-loading-spinner';
     FontAwesomeModule,
     BarRatingModule,
     Ng2LoadingSpinnerModule.forRoot({
-      backdropColor: '#fff',
-      spinnerColor: '#4F4F4F'
+      backdropColor: '#DAE3E7',
+      spinnerColor: '#4F4F4F',
+      spinnerSize: 'md',
+      spinnerFontSize: '3rem',
+      animationType  : ANIMATION_TYPES.dualCircle
     })
   ],
   providers: [],
